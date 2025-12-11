@@ -19,9 +19,7 @@ blueprint:
       description: Choose IKEA Styrbar switch remote
       selector:
         device:
-          integration: mqtt
           manufacturer: IKEA
-          model: Remote Control N2
           multiple: false
     targets:
       name: Light/Switch
