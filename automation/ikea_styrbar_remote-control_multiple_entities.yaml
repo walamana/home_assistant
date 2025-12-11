@@ -19,6 +19,7 @@ blueprint:
       description: Choose IKEA Styrbar switch remote
       selector:
         device:
+          integration: zha
           multiple: false
     targets:
       name: Light/Switch
