@@ -19,7 +19,6 @@ blueprint:
       description: Choose IKEA Styrbar switch remote
       selector:
         device:
-          manufacturer: IKEA
           multiple: false
     targets:
       name: Light/Switch
